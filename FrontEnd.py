@@ -6,7 +6,7 @@ from datetime import date
 st.title("Orderbook Frontend")
 
 # Read the Excel file
-df = pd.read_excel('W:/58430/04 Individual Folders/Marouan Mrait/Projects/Order book/OrderBook FrontEnd/Orderbook_T00.xlsx')
+df = pd.read_excel('Orderbook_T00.xlsx')
 
 # Create a dropdown menu for selecting the planner
 selected_planner = st.selectbox('Planner', df['RCName'].unique())
